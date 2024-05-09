@@ -11,9 +11,9 @@ const App = () => {
     <NavigationContainer>
       <StatusBar backgroundColor={'#6B0772'} />
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Create" component={Create} />
         <Stack.Screen name="Form" component={Form} />
         <Stack.Screen name="Search" component={Search} />
+        <Stack.Screen name="Create" component={Create} />
       </Stack.Navigator>
     </NavigationContainer>
   );
